@@ -1,0 +1,14 @@
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\bin\Debug\net8.0\ApplicationCore.runtimeconfig.json
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ApplicationCore.genruntimeconfig.cache
+D:\Antra\C\MVC\MovieAssignment\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

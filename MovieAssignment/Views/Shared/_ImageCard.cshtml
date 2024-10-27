@@ -1,0 +1,14 @@
+﻿@model Movies
+
+<div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            <a href="@Url.Action("Details", "Movies", new { id = Model.Id})">
+                <a class="dropdown-item" asp-action="DetailPage" asp-controller="Home" asp-route-id="@Model.Id">
+                    <img src="@Model.PosterUrl" alt="Poster Image" class="img-fluid" style="height: 100%; width: 100%;" />
+                </a>
+
+            </a>
+        </div>
+    </div>
+</div>

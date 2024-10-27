@@ -1,0 +1,23 @@
+﻿@model Users
+@{
+    ViewData["Title"] = "Movie Shop";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm p-4" style="width: 300px; margin: auto;">
+        <h3 class="text-center">Login</h3>
+        <form asp-action="Login" asp-controller="User" method="post">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" asp-for="HashedPassword">
+                <span asp-validation-for="HashedPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+    </div>
+</div>

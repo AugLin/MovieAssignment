@@ -1,0 +1,59 @@
+﻿@model Users
+@{
+    ViewData["Title"] = "Movie Shop";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm p-4" style="width: 300px; margin: auto;">
+        <h3 class="text-center">Login</h3>
+        <form asp-action="Register" asp-controller="User" method="post">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" asp-for="FirstName">
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" asp-for="LastName">
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="dob" class="form-label">Date Of Birth</label>
+                <input type="date" class="form-control" asp-for="DateOfBirth">
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" asp-for="HashedPassword">
+                <span asp-validation-for="HashedPassword" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" />
+                <span id="confirmPasswordError" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function validatePasswordMatch() {
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
+        const errorSpan = document.getElementById("confirmPasswordError");
+
+        if (password !== confirmPassword) {
+            errorSpan.textContent = "Passwords do not match.";
+            return false;
+        } else {
+            errorSpan.textContent = "";
+            return true;
+        }
+    }
+</script>

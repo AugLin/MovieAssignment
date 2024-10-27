@@ -1,0 +1,13 @@
+﻿@model List<Movies>
+@{
+    ViewData["Title"] = "Movie Shop";
+}
+
+<div class="container mt-3">
+    <div class="row g-2">
+        @foreach (var movie in Model)
+        {
+            @Html.Partial("_ImageCard", movie);
+        }
+    </div>
+</div>
