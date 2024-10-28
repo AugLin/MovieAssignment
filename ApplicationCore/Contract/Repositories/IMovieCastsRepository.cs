@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApplicationCore.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Contract.Repositories
 {
-    internal interface IMovieCastsRepository
+    public interface IMovieCastsRepository : IRepository<MovieCasts>
     {
+        IEnumerable<MovieCasts> GetCastsByMovieId(int id);
     }
 }

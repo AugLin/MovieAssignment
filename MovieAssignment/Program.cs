@@ -22,6 +22,10 @@ builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IUsersService, UsersService>(); 
 builder.Services.AddScoped<IMovieGenresRepository, MovieGenresRepository>();
 builder.Services.AddScoped<IMovieGenresService, MovieGenresService>();
+builder.Services.AddScoped<IMovieCastsRepository, MovieCastsRepository>();
+builder.Services.AddScoped<IMovieCastsService, MovieCastsService>();
+builder.Services.AddScoped<ICastsRepository, CastsRepository>();
+builder.Services.AddScoped<ICastsService, CastsService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

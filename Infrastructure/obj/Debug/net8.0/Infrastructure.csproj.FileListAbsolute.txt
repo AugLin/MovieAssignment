@@ -15,3 +15,4 @@ D:\Antra\C\MVC\MovieAssignment\Infrastructure\obj\Debug\net8.0\refint\Infrastruc
 D:\Antra\C\MVC\MovieAssignment\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\Antra\C\MVC\MovieAssignment\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\Antra\C\MVC\MovieAssignment\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Antra\C\MVC\MovieAssignment\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

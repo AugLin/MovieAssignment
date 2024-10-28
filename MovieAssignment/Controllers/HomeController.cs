@@ -10,11 +10,15 @@ namespace MovieAssignment.Controllers
     { 
         private readonly IMoviesService _moviesService;
         private readonly IGenresService _genresService;
-       
-        public HomeController(IMoviesService movieService, IGenresService genreService)
+        private readonly IMovieCastsService _movieCastsService;
+        private readonly ICastsService _castsService;
+
+        public HomeController(IMoviesService movieService, IGenresService genreService, IMovieCastsService movieCastsService, ICastsService castsService)
         {
             _moviesService = movieService;
             _genresService = genreService;
+            _movieCastsService = movieCastsService;
+            _castsService = castsService;
         }
 
         [Route("")]
@@ -35,6 +39,25 @@ namespace MovieAssignment.Controllers
         public IActionResult DetailPage(int id)
         {
             ViewBag.Genres = _genresService.GetAllGenre();
+
+            var MovieCasts =_movieCastsService.GetCastsByMovieId(id);
+            var castDetails = new List<dynamic>();
+
+            foreach (var movieCast in MovieCasts)
+            {
+                var cast = _castsService.GetCastById(movieCast.CastId);
+                if (cast != null)
+                {
+                    castDetails.Add(new
+                    {
+                        CastId = cast.Id,
+                        Name = cast.Name,
+                        ProfilePath = cast.ProfilePath,
+                        Character = movieCast.Character
+                    });
+                }
+            }
+            ViewBag.Casts = castDetails;
             return View(_moviesService.GetByID(id));
         }
 

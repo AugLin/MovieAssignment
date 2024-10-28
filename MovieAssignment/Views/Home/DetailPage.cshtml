@@ -3,125 +3,201 @@
     ViewData["Title"] = "Movie Detail";
 }
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-        margin: 0;
-        padding: 0;
+    .movie-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        color: white;
     }
 
-    .movie-shop {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
+    .backdrop-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        filter: blur(5px) brightness(0.5)
     }
 
-    .header {
+    .movie-content {
+        position: relative;
+        z-index: 1;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 20px;
-        background-color: #222;
-        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 100%;
+        min-height: 300px;
     }
 
-        .header h1 {
-            font-size: 24px;
-            margin: 0;
-        }
+    .movie-poster img {
+        width: 100%;
+        border-radius: 8px;
+    }
 
-        .header a {
-            color: #ccc;
-            text-decoration: none;
-        }
+    .movie-info {
+        padding-left: 20px;
+    }
 
-    .movie-details {
+    .movie-info h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .movie-info .tagline {
+        font-style: italic;
+        color: #ccc;
+    }
+
+    .additional-info {
         display: flex;
         gap: 20px;
         margin-top: 20px;
     }
 
-    .movie-poster img {
-        width: 300px;
-        border-radius: 8px;
-    }
-
-    .movie-info {
+    .movie-facts, .trailers, .cast {
         flex: 1;
-    }
-
-        .movie-info h2 {
-            font-size: 32px;
-            margin-top: 0;
-        }
-
-        .movie-info p {
-            margin: 10px 0;
-        }
-
-        .movie-info .rating {
-            font-weight: bold;
-            color: #4CAF50;
-        }
-
-        .movie-info button {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-            .movie-info button:hover {
-                background-color: #45A049;
-            }
-
-    .movie-facts {
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #f0f0f0;
+        background-color: #f9f9f9;
+        padding: 20px;
         border-radius: 8px;
     }
 
-        .movie-facts h3 {
-            margin-top: 0;
-        }
+    .movie-facts h3, .trailers h3, .cast h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #333;
+    }
 
-    .backdrop img {
-        width: 100%;
-        border-radius: 8px;
-        margin-top: 20px;
+    .movie-facts p, .trailers ul, .cast ul {
+        font-size: 1em;
+        color: #555;
+        margin: 10px 0;
+    }
+
+    .movie-facts p strong {
+        font-weight: bold;
+        color: #222;
+    }
+
+    .trailers ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .trailers ul li {
+        margin-bottom: 8px;
+    }
+
+    .trailers ul li a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+
+    .trailers ul li a:hover {
+        text-decoration: underline;
     }
 
 </style>
-<div class="movie-details">
-    <div class="movie-poster">
-        <img src="@Model.PosterUrl" alt="@Model.Title Poster" />
+
+<div class="movie-container">
+    <div class="backdrop-image">
+        <img src="@Model.BackdropUrl" alt="Backdrop for @Model.Title" />
     </div>
-    <div class="movie-info">
-        <h2>@Model.Title</h2>
-        <p>@Model.Runtime min | @Model.ReleaseDate</p>
-        <p>Original Language: @Model.OriginalLanguage</p>
-        <p>IMDB: <a href="@Model.ImdbUrl" target="_blank">@Model.ImdbUrl</a></p>
-        <p>TMDb: <a href="@Model.TmdbUrl" target="_blank">@Model.TmdbUrl</a></p>
-        <p>Rating: <span class="rating">@Model.Price</span></p>
-        <p class="description">@Model.Overview</p>
-        <button>Buy $@Model.Price</button>
+    <div class="movie-content">
+        <div class="row">
+            <div class="col-3 movie-poster">
+                <img src="@Model.PosterUrl" alt="@Model.Title Poster" />
+            </div>
+
+            <div class="col-6 movie-info">
+                <h2>@Model.Title</h2>
+                <p class="tagline">@Model.Tagline</p>
+                <p>@Model.Runtime min | @Model.ReleaseDate.ToString("yyyy")</p>
+                <div class="genres">
+                    <span>Adventure</span>
+                    <span>Action</span>
+                    <span>Science Fiction</span>
+                </div>
+                <p class="rating">Rating: @Model.Price</p>
+                <p class="description">@Model.Overview</p>
+            </div>
+
+            <div class="col-3 buttons">
+                <button type="button" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#reviewModal">
+                    Review
+                </button>
+                
+                <button type="button" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#purchaseModal" style="margin-top: 10px">
+                    Watch Movie
+                </button>
+            </div>
+        </div> 
     </div>
 </div>
 
-<div class="movie-facts">
-    <h3>Movie Facts</h3>
-    <p><strong>Release Date:</strong> @Model.ReleaseDate</p>
-    <p><strong>Run Time:</strong> @Model.Runtime min</p>
-    <p><strong>Revenue:</strong> $@Model.Revenue</p>
-    <p><strong>Budget:</strong> $@Model.Budget</p>
-    <p><strong>Tagline:</strong> @Model.Tagline</p>
+<div class="movie-container">
+    <div class="row">
+        <div class="additional-info">
+            <div class="movie-facts">
+                <h3>Movie Facts</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Release Date:</strong> @Model.ReleaseDate.ToString("MMM dd, yyyy")</li>
+                    <li class="list-group-item"><strong>Run Time:</strong> @Model.Runtime min</li>
+                    <li class="list-group-item"><strong>Box Office:</strong> $@Model.Revenue</li>
+                    <li class="list-group-item"><strong>Budget:</strong> $@Model.Budget</li>
+                </ul>
+            </div>
+
+            <!-- Cast Section -->
+            <div class="cast">
+                <h3>Cast</h3>
+                <ul class="list-group">
+                    @foreach (var castMember in ViewBag.Casts)
+                    {
+                        <li class="list-group-item">
+                            <img src="@castMember.ProfilePath" style="width:10%" alt="@castMember.Name" />
+                            <strong>@castMember.Name</strong> as <span>@castMember.Character</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="backdrop">
-    <img src="@Model.BackdropUrl" alt="Backdrop for @Model.Title" />
+<div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control"></input>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Submit Review</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="purchaseModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <p> Total Price: $9</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+    </div>
 </div>

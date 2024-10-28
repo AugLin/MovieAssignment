@@ -40,7 +40,7 @@ namespace ApplicationCore.Entities
 
         public decimal? Price { get; set; }
 
-        public DateTime? ReleaseDate { get; set; }
+        public DateTime ReleaseDate { get; set; }
 
         [Column(TypeName = "DECIMAL(18,4)")]
         public decimal? Revenue { get; set; }
