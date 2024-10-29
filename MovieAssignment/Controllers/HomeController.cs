@@ -34,12 +34,22 @@ namespace MovieAssignment.Controllers
             return View(await _moviesService.GetMostPopularMoviesAsync());
         }
 
-        [Route("Home/Index/{id}")]
-        public async Task<IActionResult> Index(int id)
+        [Route("Home/MoviesByGenre/{id}/{page?}")]
+        public async Task<IActionResult> MoviesByGenre(int id, int page = 1)
         {
+            int pageSize = 24;
+
             ViewBag.Genres = await _genresService.GetAllGenreAsync();
-            return View("Index", await _moviesService.GetMoviesByGenreAsync(id));
+            ViewBag.CurrentPage = page;
+            ViewBag.CurrentGenreId = id;
+
+            var movies = await _moviesService.GetMoviesByGenreAsync(id, page, pageSize);
+            int totalMovies = await _moviesService.GetCountAllAsync(id);
+            ViewBag.TotalPages = totalMovies / pageSize;
+
+            return View("MoviesByGenre", movies);
         }
+
 
         public async Task<IActionResult> DetailPage(int id)
         {

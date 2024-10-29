@@ -23,14 +23,19 @@ namespace Infrastructure.Service
             return await _repository.GetByIdAsync(id);
         }
 
+        public async Task<int> GetCountAllAsync(int id)
+        {
+            return await _repository.GetCountAllAsync(id);
+        }
+
         public async Task<IEnumerable<Movies>> GetMostPopularMoviesAsync()
         {
             return await _repository.GetTopRevenueMoviesAsync();
         }
 
-        public async Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id)
+        public async Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id, int page, int pageSize)
         {
-            return await _repository.GetMoviesByGenreAsync(id);
+            return await _repository.GetMoviesByGenreAsync(id, page, pageSize);
         }
     }
 }

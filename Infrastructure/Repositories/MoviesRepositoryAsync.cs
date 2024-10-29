@@ -21,10 +21,9 @@ namespace Infrastructure.Repositories
             _connection = c;
         }
 
-        public async Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id)
+        public async Task<int> GetCountAllAsync(int id)
         {
-
-            var movies = await _connection.Movies
+            return await _connection.Movies
                          .Join(
                              _connection.MovieGenres,
                              movie => movie.Id,
@@ -32,11 +31,26 @@ namespace Infrastructure.Repositories
                              (movie, movieGenre) => new { movie, movieGenre }
                          )
                          .Where(mg => mg.movieGenre.GenreId == id)
-                         .Select(mg => mg.movie)
-                         .OrderByDescending(m => m.Revenue)
-                         .Take(24)
-                         .Distinct()
-                         .ToListAsync();
+                         .CountAsync();
+        }
+
+        public async Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id, int page, int pageSize)
+        {
+
+            var movies = await _connection.Movies
+                 .Join(
+                     _connection.MovieGenres,
+                     movie => movie.Id,
+                     movieGenre => movieGenre.MovieId,
+                     (movie, movieGenre) => new { movie, movieGenre }
+                 )
+                 .Where(mg => mg.movieGenre.GenreId == id)
+                 .Select(mg => mg.movie)
+                 .OrderByDescending(m => m.Revenue)
+                 .Skip((page - 1) * pageSize)
+                 .Take(pageSize)
+                 .Distinct()
+                 .ToListAsync();
 
             return movies;
         }

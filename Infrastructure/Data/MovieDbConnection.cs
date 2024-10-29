@@ -49,10 +49,5 @@ namespace Infrastructure.Data
 
             base.OnModelCreating(modelBuilder);
         }
-
-        internal void GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

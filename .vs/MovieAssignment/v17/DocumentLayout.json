@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Antra\\C\\MVC\\MovieAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|d:\\antra\\c\\mvc\\movieassignment\\movieassignment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|solutionrelative:movieassignment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|d:\\antra\\c\\mvc\\movieassignment\\movieassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|solutionrelative:movieassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|d:\\antra\\c\\mvc\\movieassignment\\movieassignment\\views\\home\\moviesbygenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|solutionrelative:movieassignment\\views\\home\\moviesbygenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|d:\\antra\\c\\mvc\\movieassignment\\movieassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|solutionrelative:movieassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|d:\\antra\\c\\mvc\\movieassignment\\movieassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF782E52-A75C-4642-AF9E-80704D492D64}|MovieAssignment\\MovieAssignment.csproj|solutionrelative:movieassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,32 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MovieAssignment\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MovieAssignment\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T21:16:15.254Z",
+              "Title": "MoviesByGenre.cshtml",
+              "DocumentMoniker": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Views\\Home\\MoviesByGenre.cshtml",
+              "RelativeDocumentMoniker": "MovieAssignment\\Views\\Home\\MoviesByGenre.cshtml",
+              "ToolTip": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Views\\Home\\MoviesByGenre.cshtml",
+              "RelativeToolTip": "MovieAssignment\\Views\\Home\\MoviesByGenre.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T21:54:02.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MovieAssignment\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MovieAssignment\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T21:11:12.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Antra\\C\\MVC\\MovieAssignment\\MovieAssignment\\Program.cs",
               "RelativeDocumentMoniker": "MovieAssignment\\Program.cs",

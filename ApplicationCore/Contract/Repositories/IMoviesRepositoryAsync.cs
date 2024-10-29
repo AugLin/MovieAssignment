@@ -10,7 +10,8 @@ namespace ApplicationCore.Contract.Repositories
     public interface IMoviesRepositoryAsync : IRepositoryAsync<Movies>
     {
         Task<IEnumerable<Movies>> GetTopRevenueMoviesAsync();
-        Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id);
+        Task<IEnumerable<Movies>> GetMoviesByGenreAsync(int id, int page, int pageSize);
 
+        Task<int> GetCountAllAsync(int id);
     }
 }
