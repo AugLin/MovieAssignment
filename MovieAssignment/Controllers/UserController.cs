@@ -9,25 +9,25 @@ namespace MovieAssignment.Controllers
 {
     public class UserController : Controller
     {
-        private readonly IUsersService _usersService;
+        private readonly IUsersServiceAsync _usersService;
 
-        public UserController(IUsersService service)
+        public UserController(IUsersServiceAsync service)
         {
             _usersService = service;
         }
 
         [HttpGet]
-        public IActionResult Login()
+        public async Task<IActionResult> Login()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Login(Users user)
+        public async Task<IActionResult> Login(Users user)
         {
             if (ModelState.IsValid)
             {
-                var userFound = _usersService.GetUsersByEmail(user.Email);
+                var userFound = await _usersService.GetUsersByEmailAsync(user.Email);
                 if (userFound != null)
                 {
                     var hashedPassword = HashPassword(user.HashedPassword, userFound.Salt);
@@ -46,18 +46,18 @@ namespace MovieAssignment.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register()
+        public async Task<IActionResult> Register()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Register(Users user)
+        public async Task<IActionResult> Register(Users user)
         {
             if (ModelState.IsValid)
             {
                 // Check if the user already exists
-                var existingUser = _usersService.GetUsersByEmail(user.Email);
+                var existingUser = await _usersService.GetUsersByEmailAsync(user.Email);
                 if (existingUser != null)
                 {
                     ModelState.AddModelError(string.Empty, "A user with this email already exists.");
@@ -71,7 +71,7 @@ namespace MovieAssignment.Controllers
                 user.Salt = salt;
                 user.HashedPassword = hashedPassword;
                 
-                _usersService.AddUsers(user);
+                await _usersService.AddUsersAsync(user);
 
                 return RedirectToAction("Login");
             }

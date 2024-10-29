@@ -146,3 +146,12 @@ D:\Antra\C\MVC\MovieAssignment\MovieAssignment\obj\Debug\net8.0\MovieAssignment.
 D:\Antra\C\MVC\MovieAssignment\MovieAssignment\obj\Debug\net8.0\MovieAssignment.genruntimeconfig.cache
 D:\Antra\C\MVC\MovieAssignment\MovieAssignment\obj\Debug\net8.0\ref\MovieAssignment.dll
 D:\Antra\C\MVC\MovieAssignment\MovieAssignment\obj\Debug\net8.0\MovieAssignment.sourcelink.json
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Antra\C\MVC\MovieAssignment\MovieAssignment\bin\Debug\net8.0\Serilog.Sinks.File.dll

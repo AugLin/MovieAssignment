@@ -5,12 +5,12 @@ namespace MovieAssignment.Controllers
 {
     public class CastController : Controller
     {
-        private readonly IMoviesService _moviesService;
-        private readonly IGenresService _genresService;
-        private readonly IMovieCastsService _movieCastsService;
-        private readonly ICastsService _castsService;
+        private readonly IMoviesServiceAsync _moviesService;
+        private readonly IGenresServiceAsync _genresService;
+        private readonly IMovieCastsServiceAsync _movieCastsService;
+        private readonly ICastsServiceAsync _castsService;
 
-        public CastController(IMoviesService movieService, IGenresService genreService, IMovieCastsService movieCastsService, ICastsService castsService)
+        public CastController(IMoviesServiceAsync movieService, IGenresServiceAsync genreService, IMovieCastsServiceAsync movieCastsService, ICastsServiceAsync castsService)
         {
             _moviesService = movieService;
             _genresService = genreService;

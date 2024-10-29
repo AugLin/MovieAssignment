@@ -1,0 +1,525 @@
+2024-10-29 15:46:21.179 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/DetailPage.cshtml'.
+2024-10-29 15:46:21.188 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-10-29 15:46:21.188 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/MoviesByGenre.cshtml'.
+2024-10-29 15:46:21.188 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-10-29 15:46:21.188 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-10-29 15:46:21.188 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ImageCard.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-10-29 15:46:21.189 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-10-29 15:46:21.194 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-29 15:46:21.238 -04:00 [DBG] Hosting starting
+2024-10-29 15:46:21.283 -04:00 [INF] User profile is available. Using 'C:\Users\37426\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-29 15:46:21.288 -04:00 [DBG] Reading data from file 'C:\Users\37426\AppData\Local\ASP.NET\DataProtection-Keys\key-d1e7d254-8ef7-479e-9445-079e71949977.xml'.
+2024-10-29 15:46:21.293 -04:00 [DBG] Found key {d1e7d254-8ef7-479e-9445-079e71949977}.
+2024-10-29 15:46:21.297 -04:00 [DBG] Considering key {d1e7d254-8ef7-479e-9445-079e71949977} with expiration date 2025-01-21 19:24:09Z as default key.
+2024-10-29 15:46:21.298 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-29 15:46:21.300 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-29 15:46:21.300 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-29 15:46:21.303 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-29 15:46:21.303 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-29 15:46:21.304 -04:00 [DBG] Using key {d1e7d254-8ef7-479e-9445-079e71949977} as the default key.
+2024-10-29 15:46:21.304 -04:00 [DBG] Key ring with default key {d1e7d254-8ef7-479e-9445-079e71949977} was loaded during application startup.
+2024-10-29 15:46:21.389 -04:00 [INF] Now listening on: http://localhost:5028
+2024-10-29 15:46:21.389 -04:00 [DBG] Loaded hosting startup assembly MovieAssignment
+2024-10-29 15:46:21.389 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-29 15:46:21.389 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-29 15:46:21.389 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-29 15:46:21.414 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 15:46:21.414 -04:00 [INF] Hosting environment: Development
+2024-10-29 15:46:21.414 -04:00 [INF] Content root path: D:\Antra\C\MVC\MovieAssignment\MovieAssignment
+2024-10-29 15:46:21.415 -04:00 [DBG] Hosting started
+2024-10-29 15:46:21.489 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" accepted.
+2024-10-29 15:46:21.490 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" started.
+2024-10-29 15:46:21.495 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" accepted.
+2024-10-29 15:46:21.495 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" started.
+2024-10-29 15:46:21.499 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" received FIN.
+2024-10-29 15:46:21.499 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" received FIN.
+2024-10-29 15:46:21.521 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-29 15:46:21.521 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-29 15:46:21.525 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" disconnecting.
+2024-10-29 15:46:21.525 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" disconnecting.
+2024-10-29 15:46:21.527 -04:00 [DBG] Connection id "0HN7OA9EJL4F6" stopped.
+2024-10-29 15:46:21.533 -04:00 [DBG] Connection id "0HN7OA9EJL4F7" stopped.
+2024-10-29 15:47:09.876 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/DetailPage.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/MoviesByGenre.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ImageCard.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-10-29 15:47:09.884 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-10-29 15:47:09.889 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-29 15:47:09.922 -04:00 [DBG] Hosting starting
+2024-10-29 15:47:09.938 -04:00 [INF] User profile is available. Using 'C:\Users\37426\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-29 15:47:09.943 -04:00 [DBG] Reading data from file 'C:\Users\37426\AppData\Local\ASP.NET\DataProtection-Keys\key-d1e7d254-8ef7-479e-9445-079e71949977.xml'.
+2024-10-29 15:47:09.947 -04:00 [DBG] Found key {d1e7d254-8ef7-479e-9445-079e71949977}.
+2024-10-29 15:47:09.951 -04:00 [DBG] Considering key {d1e7d254-8ef7-479e-9445-079e71949977} with expiration date 2025-01-21 19:24:09Z as default key.
+2024-10-29 15:47:09.953 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-29 15:47:09.954 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-29 15:47:09.955 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-29 15:47:09.957 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-29 15:47:09.958 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-29 15:47:09.958 -04:00 [DBG] Using key {d1e7d254-8ef7-479e-9445-079e71949977} as the default key.
+2024-10-29 15:47:09.958 -04:00 [DBG] Key ring with default key {d1e7d254-8ef7-479e-9445-079e71949977} was loaded during application startup.
+2024-10-29 15:47:10.122 -04:00 [INF] Now listening on: http://localhost:5028
+2024-10-29 15:47:10.122 -04:00 [DBG] Loaded hosting startup assembly MovieAssignment
+2024-10-29 15:47:10.122 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-29 15:47:10.122 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-29 15:47:10.122 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-29 15:47:10.149 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 15:47:10.149 -04:00 [INF] Hosting environment: Development
+2024-10-29 15:47:10.149 -04:00 [INF] Content root path: D:\Antra\C\MVC\MovieAssignment\MovieAssignment
+2024-10-29 15:47:10.149 -04:00 [DBG] Hosting started
+2024-10-29 15:47:10.379 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" accepted.
+2024-10-29 15:47:10.379 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" accepted.
+2024-10-29 15:47:10.380 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" started.
+2024-10-29 15:47:10.381 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" started.
+2024-10-29 15:47:10.404 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" received FIN.
+2024-10-29 15:47:10.408 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" received FIN.
+2024-10-29 15:47:10.436 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-29 15:47:10.436 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-29 15:47:10.438 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" disconnecting.
+2024-10-29 15:47:10.438 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" disconnecting.
+2024-10-29 15:47:10.440 -04:00 [DBG] Connection id "0HN7OA9T5T2JK" stopped.
+2024-10-29 15:47:10.440 -04:00 [DBG] Connection id "0HN7OA9T5T2JJ" stopped.
+2024-10-29 15:47:18.082 -04:00 [DBG] Connection id "0HN7OA9T5T2JL" accepted.
+2024-10-29 15:47:18.082 -04:00 [DBG] Connection id "0HN7OA9T5T2JL" started.
+2024-10-29 15:47:18.119 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/ - null null
+2024-10-29 15:47:18.250 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-29 15:47:18.254 -04:00 [DBG] The request path / does not match a supported file type
+2024-10-29 15:47:18.266 -04:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-10-29 15:47:18.269 -04:00 [DBG] Endpoint 'MovieAssignment.Controllers.HomeController.Index (MovieAssignment)' with route pattern '' is valid for the request path '/'
+2024-10-29 15:47:18.269 -04:00 [DBG] Request matched endpoint 'MovieAssignment.Controllers.HomeController.Index (MovieAssignment)'
+2024-10-29 15:47:18.271 -04:00 [INF] Executing endpoint 'MovieAssignment.Controllers.HomeController.Index (MovieAssignment)'
+2024-10-29 15:47:18.294 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MovieAssignment.Controllers.HomeController (MovieAssignment).
+2024-10-29 15:47:18.295 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-29 15:47:18.295 -04:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-29 15:47:18.295 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-29 15:47:18.295 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-29 15:47:18.295 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-29 15:47:18.296 -04:00 [DBG] Executing controller factory for controller MovieAssignment.Controllers.HomeController (MovieAssignment)
+2024-10-29 15:47:18.970 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-29 15:47:18.988 -04:00 [DBG] Executed controller factory for controller MovieAssignment.Controllers.HomeController (MovieAssignment)
+2024-10-29 15:47:18.996 -04:00 [INF] Home Controller is being logged
+2024-10-29 15:47:19.417 -04:00 [DBG] Entity Framework Core 8.0.10 initialized 'MovieDbConnection' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-29 15:47:19.495 -04:00 [DBG] Compiling query expression: 
+'DbSet<Genres>()'
+2024-10-29 15:47:19.585 -04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Genres>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Genres.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Genres.Name (string) Required, 1] }
+        SELECT g.Id, g.Name
+        FROM Genres AS g), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Genres>, 
+    Infrastructure.Data.MovieDbConnection, 
+    False, 
+    False, 
+    True
+)'
+2024-10-29 15:47:19.598 -04:00 [DBG] Creating DbConnection.
+2024-10-29 15:47:19.610 -04:00 [DBG] Created DbConnection. (9ms).
+2024-10-29 15:47:19.611 -04:00 [DBG] Opening connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:19.936 -04:00 [DBG] Opened connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:19.938 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-29 15:47:19.942 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-29 15:47:19.944 -04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-10-29 15:47:19.948 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-29 15:47:19.975 -04:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genres] AS [g]
+2024-10-29 15:47:19.992 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:19.999 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.000 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Genres' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.001 -04:00 [DBG] Closing data reader to 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.004 -04:00 [DBG] A data reader for 'MovieApplication' on server '.' is being disposed after spending 27ms reading results.
+2024-10-29 15:47:20.005 -04:00 [DBG] Closing connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.008 -04:00 [DBG] Closed connection to database 'MovieApplication' on server '.' (2ms).
+2024-10-29 15:47:20.022 -04:00 [DBG] Compiling query expression: 
+'DbSet<Movies>()
+    .OrderByDescending(x => x.Revenue)
+    .Take(__p_0)'
+2024-10-29 15:47:20.053 -04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Movies>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Movies.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Movies.BackdropUrl (string), 1], [Property: Movies.Budget (decimal?), 2], [Property: Movies.CreatedBy (string), 3], [Property: Movies.CreatedDate (DateTime?), 4], [Property: Movies.ImdbUrl (string), 5], [Property: Movies.OriginalLanguage (string), 6], [Property: Movies.Overview (string), 7], [Property: Movies.PosterUrl (string), 8], [Property: Movies.Price (decimal?), 9], [Property: Movies.ReleaseDate (DateTime) Required, 10], [Property: Movies.Revenue (decimal?), 11], [Property: Movies.Runtime (int?), 12], [Property: Movies.Tagline (string), 13], [Property: Movies.Title (string), 14], [Property: Movies.TmdbUrl (string), 15], [Property: Movies.UpdatedBy (string), 16], [Property: Movies.UpdatedDate (DateTime?), 17] }
+        SELECT TOP(@__p_0) m.Id, m.BackdropUrl, m.Budget, m.CreatedBy, m.CreatedDate, m.ImdbUrl, m.OriginalLanguage, m.Overview, m.PosterUrl, m.Price, m.ReleaseDate, m.Revenue, m.Runtime, m.Tagline, m.Title, m.TmdbUrl, m.UpdatedBy, m.UpdatedDate
+        FROM Movies AS m
+        ORDER BY m.Revenue DESC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Movies>, 
+    Infrastructure.Data.MovieDbConnection, 
+    False, 
+    False, 
+    True
+)'
+2024-10-29 15:47:20.054 -04:00 [DBG] Opening connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.055 -04:00 [DBG] Opened connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.055 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-29 15:47:20.055 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-29 15:47:20.057 -04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-10-29 15:47:20.058 -04:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[Runtime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+ORDER BY [m].[Revenue] DESC
+2024-10-29 15:47:20.129 -04:00 [INF] Executed DbCommand (73ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[Runtime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movies] AS [m]
+ORDER BY [m].[Revenue] DESC
+2024-10-29 15:47:20.179 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.299 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.300 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Context 'MovieDbConnection' started tracking 'Movies' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-29 15:47:20.301 -04:00 [DBG] Closing data reader to 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.301 -04:00 [DBG] A data reader for 'MovieApplication' on server '.' is being disposed after spending 171ms reading results.
+2024-10-29 15:47:20.302 -04:00 [DBG] Closing connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.302 -04:00 [DBG] Closed connection to database 'MovieApplication' on server '.' (0ms).
+2024-10-29 15:47:20.304 -04:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-10-29 15:47:20.307 -04:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 15:47:20.308 -04:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 2.7907ms.
+2024-10-29 15:47:20.336 -04:00 [DBG] View lookup cache miss for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.348 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[29],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.350 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/29 and 
+2024-10-29 15:47:20.350 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/29
+2024-10-29 15:47:20.353 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[29],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.353 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/29 and 
+2024-10-29 15:47:20.353 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/29
+2024-10-29 15:47:20.355 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.356 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[6],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.356 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/6 and 
+2024-10-29 15:47:20.356 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/6
+2024-10-29 15:47:20.356 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[6],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.356 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/6 and 
+2024-10-29 15:47:20.356 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/6
+2024-10-29 15:47:20.356 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.357 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[16],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.357 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/16 and 
+2024-10-29 15:47:20.357 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/16
+2024-10-29 15:47:20.357 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[16],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.357 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/16 and 
+2024-10-29 15:47:20.357 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/16
+2024-10-29 15:47:20.357 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.357 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[47],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.357 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/47 and 
+2024-10-29 15:47:20.357 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/47
+2024-10-29 15:47:20.357 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[47],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.357 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/47 and 
+2024-10-29 15:47:20.358 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/47
+2024-10-29 15:47:20.358 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.358 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[9],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.358 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/9 and 
+2024-10-29 15:47:20.358 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/9
+2024-10-29 15:47:20.358 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[9],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.358 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/9 and 
+2024-10-29 15:47:20.358 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/9
+2024-10-29 15:47:20.358 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.358 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[32],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.358 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/32 and 
+2024-10-29 15:47:20.358 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/32
+2024-10-29 15:47:20.358 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[32],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.358 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/32 and 
+2024-10-29 15:47:20.358 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/32
+2024-10-29 15:47:20.359 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.359 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[303],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.359 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/303 and 
+2024-10-29 15:47:20.359 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/303
+2024-10-29 15:47:20.359 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[303],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.359 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/303 and 
+2024-10-29 15:47:20.359 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/303
+2024-10-29 15:47:20.359 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.359 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[5],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.359 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/5 and 
+2024-10-29 15:47:20.359 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/5
+2024-10-29 15:47:20.359 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[5],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.359 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/5 and 
+2024-10-29 15:47:20.359 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/5
+2024-10-29 15:47:20.360 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.360 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[252],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.360 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/252 and 
+2024-10-29 15:47:20.360 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/252
+2024-10-29 15:47:20.360 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[252],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.360 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/252 and 
+2024-10-29 15:47:20.360 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/252
+2024-10-29 15:47:20.360 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.360 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[327],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.360 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/327 and 
+2024-10-29 15:47:20.360 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/327
+2024-10-29 15:47:20.361 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[327],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.361 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/327 and 
+2024-10-29 15:47:20.361 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/327
+2024-10-29 15:47:20.361 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.361 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[23],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.361 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/23 and 
+2024-10-29 15:47:20.361 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/23
+2024-10-29 15:47:20.361 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[23],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.361 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/23 and 
+2024-10-29 15:47:20.361 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/23
+2024-10-29 15:47:20.361 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.362 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[30],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.362 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/30 and 
+2024-10-29 15:47:20.362 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/30
+2024-10-29 15:47:20.362 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[30],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.362 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/30 and 
+2024-10-29 15:47:20.362 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/30
+2024-10-29 15:47:20.362 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.362 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[52],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.362 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/52 and 
+2024-10-29 15:47:20.362 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/52
+2024-10-29 15:47:20.362 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[52],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.362 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/52 and 
+2024-10-29 15:47:20.363 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/52
+2024-10-29 15:47:20.363 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.363 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[117],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.363 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/117 and 
+2024-10-29 15:47:20.363 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/117
+2024-10-29 15:47:20.363 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[117],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.363 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/117 and 
+2024-10-29 15:47:20.363 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/117
+2024-10-29 15:47:20.363 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.363 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[220],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.363 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/220 and 
+2024-10-29 15:47:20.363 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/220
+2024-10-29 15:47:20.363 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[220],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.363 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/220 and 
+2024-10-29 15:47:20.364 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/220
+2024-10-29 15:47:20.364 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.364 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[88],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.364 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/88 and 
+2024-10-29 15:47:20.364 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/88
+2024-10-29 15:47:20.364 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[88],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.364 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/88 and 
+2024-10-29 15:47:20.364 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/88
+2024-10-29 15:47:20.364 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.364 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[80],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.364 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/80 and 
+2024-10-29 15:47:20.364 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/80
+2024-10-29 15:47:20.364 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[80],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.364 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/80 and 
+2024-10-29 15:47:20.364 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/80
+2024-10-29 15:47:20.365 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.365 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[177],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.365 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/177 and 
+2024-10-29 15:47:20.365 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/177
+2024-10-29 15:47:20.365 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[177],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.365 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/177 and 
+2024-10-29 15:47:20.365 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/177
+2024-10-29 15:47:20.365 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.365 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[263],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.365 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/263 and 
+2024-10-29 15:47:20.365 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/263
+2024-10-29 15:47:20.365 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[263],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.365 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/263 and 
+2024-10-29 15:47:20.365 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/263
+2024-10-29 15:47:20.366 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.366 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[24],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.366 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/24 and 
+2024-10-29 15:47:20.366 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/24
+2024-10-29 15:47:20.366 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[24],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.366 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/24 and 
+2024-10-29 15:47:20.366 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/24
+2024-10-29 15:47:20.366 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.366 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[229],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.366 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/229 and 
+2024-10-29 15:47:20.366 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/229
+2024-10-29 15:47:20.366 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[229],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.366 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/229 and 
+2024-10-29 15:47:20.366 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/229
+2024-10-29 15:47:20.366 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.367 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[20],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.367 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/20 and 
+2024-10-29 15:47:20.367 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/20
+2024-10-29 15:47:20.367 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[20],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.367 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/20 and 
+2024-10-29 15:47:20.367 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/20
+2024-10-29 15:47:20.367 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.367 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[166],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.367 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/166 and 
+2024-10-29 15:47:20.367 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/166
+2024-10-29 15:47:20.367 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[166],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.367 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/166 and 
+2024-10-29 15:47:20.367 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/166
+2024-10-29 15:47:20.367 -04:00 [DBG] View lookup cache hit for view '_ImageCard' in controller 'Home'.
+2024-10-29 15:47:20.367 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[194],action=[Details],controller=[Movies])
+2024-10-29 15:47:20.367 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Movies/Details/194 and 
+2024-10-29 15:47:20.367 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Movies/Details/194
+2024-10-29 15:47:20.368 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[194],action=[DetailPage],controller=[Home])
+2024-10-29 15:47:20.368 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/DetailPage/194 and 
+2024-10-29 15:47:20.368 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/DetailPage/194
+2024-10-29 15:47:20.368 -04:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-10-29 15:47:20.387 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-10-29 15:47:20.388 -04:00 [DBG] Failed to process the template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment). A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-10-29 15:47:20.388 -04:00 [DBG] Successfully processed template Home/Index for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index and 
+2024-10-29 15:47:20.388 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index
+2024-10-29 15:47:20.404 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[1],action=[Index],controller=[Home])
+2024-10-29 15:47:20.404 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/1 and 
+2024-10-29 15:47:20.405 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/1
+2024-10-29 15:47:20.406 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[2],action=[Index],controller=[Home])
+2024-10-29 15:47:20.406 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/2 and 
+2024-10-29 15:47:20.406 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/2
+2024-10-29 15:47:20.406 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[3],action=[Index],controller=[Home])
+2024-10-29 15:47:20.406 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/3 and 
+2024-10-29 15:47:20.406 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/3
+2024-10-29 15:47:20.406 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[4],action=[Index],controller=[Home])
+2024-10-29 15:47:20.406 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/4 and 
+2024-10-29 15:47:20.406 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/4
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[5],action=[Index],controller=[Home])
+2024-10-29 15:47:20.407 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/5 and 
+2024-10-29 15:47:20.407 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/5
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[6],action=[Index],controller=[Home])
+2024-10-29 15:47:20.407 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/6 and 
+2024-10-29 15:47:20.407 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/6
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[7],action=[Index],controller=[Home])
+2024-10-29 15:47:20.407 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/7 and 
+2024-10-29 15:47:20.407 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/7
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[8],action=[Index],controller=[Home])
+2024-10-29 15:47:20.407 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/8 and 
+2024-10-29 15:47:20.407 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/8
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[9],action=[Index],controller=[Home])
+2024-10-29 15:47:20.407 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/9 and 
+2024-10-29 15:47:20.407 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/9
+2024-10-29 15:47:20.407 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[10],action=[Index],controller=[Home])
+2024-10-29 15:47:20.408 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/10 and 
+2024-10-29 15:47:20.408 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/10
+2024-10-29 15:47:20.408 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[11],action=[Index],controller=[Home])
+2024-10-29 15:47:20.408 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/11 and 
+2024-10-29 15:47:20.408 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/11
+2024-10-29 15:47:20.408 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[12],action=[Index],controller=[Home])
+2024-10-29 15:47:20.408 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/12 and 
+2024-10-29 15:47:20.408 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/12
+2024-10-29 15:47:20.408 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[13],action=[Index],controller=[Home])
+2024-10-29 15:47:20.408 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/13 and 
+2024-10-29 15:47:20.408 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/13
+2024-10-29 15:47:20.408 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[14],action=[Index],controller=[Home])
+2024-10-29 15:47:20.408 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/14 and 
+2024-10-29 15:47:20.408 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/14
+2024-10-29 15:47:20.409 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[15],action=[Index],controller=[Home])
+2024-10-29 15:47:20.409 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/15 and 
+2024-10-29 15:47:20.409 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/15
+2024-10-29 15:47:20.409 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[16],action=[Index],controller=[Home])
+2024-10-29 15:47:20.409 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/16 and 
+2024-10-29 15:47:20.409 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/16
+2024-10-29 15:47:20.409 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[17],action=[Index],controller=[Home])
+2024-10-29 15:47:20.409 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/17 and 
+2024-10-29 15:47:20.409 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/17
+2024-10-29 15:47:20.409 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[18],action=[Index],controller=[Home])
+2024-10-29 15:47:20.409 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/18 and 
+2024-10-29 15:47:20.409 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/18
+2024-10-29 15:47:20.409 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[19],action=[Index],controller=[Home])
+2024-10-29 15:47:20.409 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/19 and 
+2024-10-29 15:47:20.409 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/19
+2024-10-29 15:47:20.410 -04:00 [DBG] Found the endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] for address (id=[20],action=[Index],controller=[Home])
+2024-10-29 15:47:20.410 -04:00 [DBG] Successfully processed template Home/Index/{id} for MovieAssignment.Controllers.HomeController.Index (MovieAssignment) resulting in /Home/Index/20 and 
+2024-10-29 15:47:20.410 -04:00 [DBG] Link generation succeeded for endpoints ["MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","MovieAssignment.Controllers.HomeController.Index (MovieAssignment)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Index/20
+2024-10-29 15:47:20.410 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Login],controller=[User])
+2024-10-29 15:47:20.410 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/Login and 
+2024-10-29 15:47:20.410 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /User/Login
+2024-10-29 15:47:20.410 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Register],controller=[User])
+2024-10-29 15:47:20.410 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/Register and 
+2024-10-29 15:47:20.410 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /User/Register
+2024-10-29 15:47:20.414 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-29 15:47:20.416 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-29 15:47:20.419 -04:00 [INF] Executed ViewResult - view Index executed in 114.7457ms.
+2024-10-29 15:47:20.419 -04:00 [INF] Executed action MovieAssignment.Controllers.HomeController.Index (MovieAssignment) in 2123.6625ms
+2024-10-29 15:47:20.419 -04:00 [INF] Executed endpoint 'MovieAssignment.Controllers.HomeController.Index (MovieAssignment)'
+2024-10-29 15:47:20.419 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-29 15:47:20.419 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-29 15:47:20.420 -04:00 [DBG] Connection id "0HN7OA9T5T2JL" completed keep alive response.
+2024-10-29 15:47:20.422 -04:00 [DBG] 'MovieDbConnection' disposed.
+2024-10-29 15:47:20.504 -04:00 [DBG] Disposing connection to database 'MovieApplication' on server '.'.
+2024-10-29 15:47:20.505 -04:00 [DBG] Disposed connection to database '' on server '' (31ms).
+2024-10-29 15:47:20.518 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/ - 200 null text/html; charset=utf-8 2401.4766ms
+2024-10-29 15:47:20.529 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-29 15:47:20.532 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-10-29 15:47:20.532 -04:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2024-10-29 15:47:20.533 -04:00 [DBG] Connection id "0HN7OA9T5T2JL" completed keep alive response.
+2024-10-29 15:47:20.533 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 4.3345ms
+2024-10-29 15:47:20.536 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-10-29 15:47:20.536 -04:00 [DBG] Connection id "0HN7OA9T5T2JM" accepted.
+2024-10-29 15:47:20.536 -04:00 [DBG] Connection id "0HN7OA9T5T2JM" started.
+2024-10-29 15:47:20.537 -04:00 [DBG] Connection id "0HN7OA9T5T2JN" accepted.
+2024-10-29 15:47:20.537 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/MovieAssignment.styles.css?v=6WFnNP8o-x6bR2CID0ygwBonopWbdoMcEzsISlSHuHU - null null
+2024-10-29 15:47:20.538 -04:00 [DBG] Connection id "0HN7OA9T5T2JN" started.
+2024-10-29 15:47:20.539 -04:00 [DBG] Connection id "0HN7OA9T5T2JO" accepted.
+2024-10-29 15:47:20.539 -04:00 [INF] The file /MovieAssignment.styles.css was not modified
+2024-10-29 15:47:20.539 -04:00 [DBG] Connection id "0HN7OA9T5T2JO" started.
+2024-10-29 15:47:20.539 -04:00 [DBG] Handled. Status code: 304 File: /MovieAssignment.styles.css
+2024-10-29 15:47:20.539 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-29 15:47:20.539 -04:00 [INF] The file /css/site.css was not modified
+2024-10-29 15:47:20.540 -04:00 [DBG] Connection id "0HN7OA9T5T2JM" completed keep alive response.
+2024-10-29 15:47:20.540 -04:00 [DBG] Connection id "0HN7OA9T5T2JP" accepted.
+2024-10-29 15:47:20.540 -04:00 [DBG] Handled. Status code: 304 File: /css/site.css
+2024-10-29 15:47:20.540 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/MovieAssignment.styles.css?v=6WFnNP8o-x6bR2CID0ygwBonopWbdoMcEzsISlSHuHU - 304 null text/css 2.2156ms
+2024-10-29 15:47:20.540 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-10-29 15:47:20.540 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/lib/jquery/dist/jquery.min.js - null null
+2024-10-29 15:47:20.540 -04:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-10-29 15:47:20.540 -04:00 [DBG] Connection id "0HN7OA9T5T2JP" started.
+2024-10-29 15:47:20.540 -04:00 [DBG] Connection id "0HN7OA9T5T2JL" completed keep alive response.
+2024-10-29 15:47:20.540 -04:00 [DBG] Connection id "0HN7OA9T5T2JN" completed keep alive response.
+2024-10-29 15:47:20.540 -04:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-10-29 15:47:20.540 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 4.2372ms
+2024-10-29 15:47:20.540 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-10-29 15:47:20.552 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 12.6681ms
+2024-10-29 15:47:20.552 -04:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2024-10-29 15:47:20.552 -04:00 [INF] The file /js/site.js was not modified
+2024-10-29 15:47:20.552 -04:00 [DBG] Connection id "0HN7OA9T5T2JO" completed keep alive response.
+2024-10-29 15:47:20.552 -04:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2024-10-29 15:47:20.552 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/lib/jquery/dist/jquery.min.js - 304 null text/javascript 12.5232ms
+2024-10-29 15:47:20.552 -04:00 [DBG] Connection id "0HN7OA9T5T2JP" completed keep alive response.
+2024-10-29 15:47:20.552 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 11.948ms
+2024-10-29 15:47:20.560 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-29 15:47:20.561 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5028/_vs/browserLink - null null
+2024-10-29 15:47:20.562 -04:00 [DBG] Connection id "0HN7OA9T5T2JP" completed keep alive response.
+2024-10-29 15:47:20.562 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/_framework/aspnetcore-browser-refresh.js - 200 13765 application/javascript; charset=utf-8 1.9752ms
+2024-10-29 15:47:20.630 -04:00 [DBG] Connection id "0HN7OA9T5T2JO" completed keep alive response.
+2024-10-29 15:47:20.631 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5028/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.3669ms
