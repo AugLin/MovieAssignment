@@ -22,5 +22,5 @@ steps:
     azureSubscription: 'Azure subscription 1(18f66247-67d8-433c-bc0c-037a9d08c599)'
     appType: 'webApp'
     appName: 'CaifuLinMovieShop'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(C/agent)/**/*.zip'
     deploymentMethod: 'auto'
