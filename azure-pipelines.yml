@@ -17,10 +17,3 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'Azure subscription 1(18f66247-67d8-433c-bc0c-037a9d08c599)'
-    appType: 'webApp'
-    appName: 'CaifuLinMovieShop'
-    package: '$(C/agent)/**/*.zip'
-    deploymentMethod: 'auto'
